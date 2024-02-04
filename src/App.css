@@ -1,0 +1,61 @@
+.login-button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-list li {
+  padding: 10px;
+}
+
+.menu-area {
+  display: flex;
+  justify-content: center;
+}
+
+.search-section {
+  border-bottom: 1px solid black;
+  position: absolute;
+  right: 20px;
+  padding: 5px;
+}
+
+.search-section input {
+  border: none;
+  margin-left: 5px;
+}
+
+.search-section input:focus {
+  outline: none;
+}
+
+.card {
+  border: none !important;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.product-img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.detail-add-btn {
+  width: 100%;
+}
